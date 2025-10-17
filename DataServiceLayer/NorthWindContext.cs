@@ -1,10 +1,10 @@
 ﻿using DataServiceLayer.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+// using System;
+// using System.Collections.Generic;
+// using System.Linq;
+// using System.Text;
+// using System.Threading.Tasks;
 
 namespace DataServiceLayer
 {
@@ -22,7 +22,7 @@ namespace DataServiceLayer
         protected override void OnConfiguring(DbContextOptionsBuilder b)
         {
 
-            b.UseNpgsql("Host=localhost;Database=northwind;Username=postgres;Password=Ass123#$;Include Error Detail=true")
+            b.UseNpgsql("Host=localhost;Database=northwind;Username=postgres;Password=2RJ&Ao2g@qJy0Vk6;Include Error Detail=true")
 
             .EnableSensitiveDataLogging();
         }
