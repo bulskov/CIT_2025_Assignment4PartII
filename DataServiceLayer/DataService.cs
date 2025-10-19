@@ -10,15 +10,15 @@ namespace DataServiceLayer;
 
 public class DataService
 {
-    private readonly NorthwindContext _db;
+    private readonly NorthWindContext _db;
 
-    public DataService(NorthwindContext db)
+    public DataService(NorthWindContext db)
     {
         _db = db;
     }
     public DataService()
     {
-        _db = new NorthwindContext();
+        _db = new NorthWindContext();
     }
 
     // -------------------- Categories --------------------
